@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    width: auto;
+    height: auto;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+
+/*start body*/
+
+.gallery-box{
+	padding-top: 160px;
+  padding: auto;
+    }
+.gallery-box1{
+      padding-top: 200px 0px;
+
+        }
+.tz-gallery{
+	margin-top: 10px;
+    padding-left: 100px;
+}
+.tz-gallery .lightbox img {
+    width: 160%;
+    margin-bottom: 12px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 2px 3px #21201E;
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    
+}
+.gallery-details{
+  justify-content: center;
+  text-align: center;
+  width: 35%;
+  padding-left:50%;
+}
+.gallery-details h2{
+  font-family: 'Arbutus Slab', serif;
+  color: #805A40;
+}
+
+.gallery-details .bookbtn{
+text-decoration: none;
+width:100px;
+height: 40px;
+border: 20px; ; 
+border-radius: 15px;
+}
+
+.gallery-details .bookbtn a{
+  text-decoration: none;
+  color: #805A40;
+}
+
+.gallery-details .bookbtn a:hover{
+  transform: translate(0,-10px);
+  color: #ff0000;
+}
+
+
+/*end body*/

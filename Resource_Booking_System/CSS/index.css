@@ -1,0 +1,199 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+}
+/*start Slider*/
+.mySlides {display:none;}
+
+.bodymain{
+    padding-top: 130px; 
+    background-color: #ffffff; 
+}
+#i1, #i2, #i3, #i4, #i5{ display: none;}
+
+.container{
+        margin: 0;
+        margin-top: 0px;
+        position: relative;
+        width: 100%;
+        height: 50%;
+        padding-bottom: 38%;
+        user-select: none;
+        
+        }
+.container .slide_img{
+        position: absolute;
+        width: 100%;;
+        height: 100%;
+        display: flex;
+    }
+    .container .slide_img img{
+        width: inherit;
+        height: inherit;
+    }
+
+.container #nav_slide{
+    width: 100%;
+    bottom: -10%;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    cursor: default;
+}
+
+#nav_slide .dots{
+    top: 15px;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: .01s;
+}
+
+#nav_slide .dots:hover {
+    cursor: pointer;
+    background-color: #9EA3AD;
+    transition: .01s
+}
+
+.slide_img{z-index: -1;}
+
+    #i1:checked ~ #one  ,
+    #i2:checked ~ #two  ,
+    #i3:checked ~ #three,
+    #i4:checked ~ #four ,
+    #i5:checked ~ #five 
+    {z-index: 9; animation: scroll 1s ease-in-out;}
+
+    #i1:checked  ~  #nav_slide #dot1,
+    #i2:checked  ~  #nav_slide #dot2,
+    #i3:checked  ~  #nav_slide #dot3,
+    #i4:checked  ~  #nav_slide #dot4,
+    #i5:checked  ~  #nav_slide #dot5
+    { background-color: rgba(0, 0, 0, 0.9);}
+
+
+
+/*end Slider*/
+
+
+.paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding-top: 65px;
+}
+.paragraph p{
+    text-align: center;
+    color: #805A40;
+    width: 50%;
+    position: absolute;
+    
+}
+
+/*QT START*/
+.qt-background{
+	background: url(../IMAGES/index/06.jpg) no-repeat;
+	background-size:cover;
+	padding: 100px 0;
+	background-attachment: fixed;
+	background-position: center center;
+	position: relative;
+    height: 100px;
+}
+
+.qt-background p {
+    padding-left: 190PX;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 44px;
+    color: #fff;
+	font-family: 'Arbutus Slab', serif;
+	margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.qt-background span {
+    color: #fff;
+    font-size: 20px;  
+	font-weight: 500;
+    text-align: center;
+    padding-left: 210PX;	
+}
+/*QT END*/
+
+/*gallery*/
+.gallery-box{
+	padding: 70px 0px;
+    }
+
+.gallery-box h2{
+    font-family: 'Arbutus Slab', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #805A40;
+    padding-left: 270px;
+    
+}
+.tz-gallery{
+	margin-top: 20px;
+    padding-left: 280px;
+}
+.tz-gallery .lightbox img {
+    width: 80%;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 2px 3px #21201E;
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+/*end gallery*/
+
+/*start review*/
+
+
+.reviewtitle{
+    left: 50%;
+    text-align: center;
+}
+.reviewtitle h2{
+    font-family: 'Arbutus Slab', serif;
+    color:#805A40;
+    font-size: 35px;
+}
+
+.reviewname{
+    text-align: center;
+    font-family: 'Arbutus Slab', serif;
+    margin-top: 100px;
+    font-size: 25px;
+    color:#805A40;
+}
+
+.reviewcontent{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 50px;
+    color:#926648;
+    font-size: 20px;
+    
+}
+.reviewcontent p{
+    text-align: center;
+    font-family: 'Arbutus Slab', serif;
+    
+
+}
+/*end review*/
+

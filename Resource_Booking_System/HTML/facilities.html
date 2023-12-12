@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <title>facilities</title>
+    <link rel="stylesheet" href="../CSS/facilities.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://localhost/resource_booking_system/CSS/header.css">
+</head>
+
+<body>
+<!--Header-->
+<header>
+    <div class="header">
+         <a href="http://localhost/resource_booking_system/index.php"><img src="http://localhost/resource_booking_system/IMAGES/logo.png" class="logo"> </a>
+
+         <div class="button">
+           <button class="btn1" type="button"><a href="http://localhost/resource_booking_system/PHP/booking.php" id="btn01" >BOOK NOW</a></button>
+           <button class="btn2" type="button"><a href="http://localhost/resource_booking_system/PHP/signin.php" id="btn01" >SIGN IN / LOGIN</a></button>
+           <div class="travel"><p><a href="#" id="travel">travel guide</a></p></div>
+         </div>
+          
+       <div class="navi">
+           <a href="http://localhost/resource_booking_system/index.php">HOME</a>
+           <a href="http://localhost/resource_booking_system/PHP/dining.php">DINING</a>
+           <a href="http://localhost/resource_booking_system/PHP/#">ACCOMODATION</a>
+           <a href="http://localhost/resource_booking_system/PHP/Event.php">WEDDINGS & EVENTS</a>
+           <a href="http://localhost/resource_booking_system/PHP/gallery.php">GALLERY</a>
+           <a href="http://localhost/resource_booking_system/HTML/facilities.html">FACILITIES</a>
+        </div>
+        <div class="navi2">
+           <a href="http://localhost/resource_booking_system/PHP/about.php">ABOUT</a>
+           <a href="http://localhost/resource_booking_system/PHP/contactus.php">CONTACT US</a>
+           <a href="http://localhost/resource_booking_system/PHP/review.php">REVIEW</a>
+          
+        </div>
+   </div>
+       
+</header>
+<!--End of Header-->
+
+<div class="mainn">
+    <div class="banner">
+        <img src="../IMAGES/dining/SLIDER/main3.png" alt="cover-image">
+    </div>
+
+    <div class="content">
+        <div class="slide">
+            <img src="../IMAGES/facilities/2.png" id="fslide">
+        </div>
+        <div class="ttitle">
+            <h1>SERVICES & FACILITIES</h1>
+            <p>
+                Mount bee Colombo offers a full range of services and facilities, supported by an experienced and dedicated staff.
+
+                If you require any service that is not listed here, please contact us and we will do our very best to accommodate your request.
+            </p><br>
+        </div>
+
+        <div class="dess">
+            
+
+            <h3>Facilities </h3>
+            <ul>
+                <li>Conference Facilities</li>
+                <li>Facilities for the Disabled</li>
+                <li>Foreign Exchange Counter</li>
+                <li>Parking Facilities</li>
+                <li>Safe Deposit Box</li>
+            </ul>
+
+            <h3>Services</h3>
+            <ul>
+                <li>Butler Service in Suites</li>
+                <li>Shoeshine Service</li>
+                <li>Express Check-in and Check-ou</li>
+                <li>House Doctor on Call and In-House Clinic</li>
+                <li>Laundry & Valet Service</li>
+                <li>Postal/ Courier Service</li>
+                <li>Wireless Internet in Public Areas</li>
+            </ul>
+
+            <h3>Transportation</h3>
+            <ul>
+                <li>Car Rental Service</li>
+                <li>Taxi & Limousine Service</li>
+            </ul>
+
+            <h3>Shops</h3>
+            <ul>
+                <li>Beauty Salon</li>
+                <li>Florist</li>
+                <li>Gift Shop</li>
+               <li> Pastry Shop</li>
+            </ul>
+            
+            <h3>Food & Beverages</h3>
+            <ul>
+                <li>Lobby Loungn</li>
+                <li>24-hour Room Service</li>
+                <li>Grab & Go</li>
+            </ul>
+        </div>
+    </div><br>
+</div>
+
+
+<!-- start Footer -->
+<footer>
+    <div class="row">
+        <div class="container">
+           <div class="footer-col">
+               <h5>@2022 All Right Reserved MOUNT_BEE</h5>
+           </div>
+             <div class="social-menu">
+                   <ul>
+                   <li> <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                   <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                   <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                   <li><a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp"></i></a></li>
+                  </ul> 
+               </div>
+           </div>
+       </div>
+</footer>
+<!-- End Footer -->
+
+<script>
+    function first(){
+        document.getElementById('fslide').src = "../IMAGES/facilities/1.png";
+    }
+    function second(){
+        document.getElementById('fslide').src = "../IMAGES/facilities/3.png";
+    }
+    function third(){
+        document.getElementById('fslide').src = "../IMAGES/facilities/4.png";
+    }
+
+    setInterval(first,3000);
+    setInterval(second,6000);
+    setInterval(third, 9000);
+
+</script>
+</body>
+
+</html>
+
+
+

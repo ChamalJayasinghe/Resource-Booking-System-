@@ -1,0 +1,89 @@
+/* card image size*/
+.onli{
+    width: 55px;
+    height: 25px;
+}
+/* mane topic (payemant)*/
+.it{
+    text-align: center;
+}
+/*all contende hoider*/
+.container{
+    align-items: center;
+    text-align: inherit;
+}
+/*container dispay place holder*/
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+
+}
+/*viwe card ditails button*/
+.btn{
+    background-color:#FFA500;
+    width:100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*background colour*/
+
+
+/*textbox design*/
+.inputbox {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #444
+}
+/*all size  design*/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+/*for insert payemant background*/
+form {
+    padding: 20px;
+    width: 700px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+
+}
+/* to disign sumbit button*/
+.submit{
+    background-color: green;
+    color: white;
+    width: 300px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* to add hover effect to sumbit button*/
+.submit:hover{
+    background-color: #FFA500;
+}
+/* to close javascript getelement by id image */
+.close{
+    top:100px;
+    left:100px;
+    background-color:red;
+    text-decoration: none;
+    font-size:36px;
+}
+
+.containerphp img{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        min-height: 100vh;
+        margin-bottom:0;
+}
+

@@ -1,0 +1,150 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+.container{
+    width: 100%;
+    background: #ffffff;
+    display:flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.main{
+    width:1519px;
+    height: 750px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.box{
+    width: 379.5px;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+
+.img{
+    width: 379.5px;
+    height: 300px;
+}
+
+.mainimg{
+    margin-top: 130px;
+    width: 1519px;
+    height: 620px;
+}
+
+
+
+.box:hover{
+  background-image: url(../IMAGES/Dining/spotlight.jpg);
+  text-decoration-color: aliceblue;
+  color:rgb(255, 255, 255);
+  transition: 1.5s ease-out;
+}
+
+.img{ 
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.img:hover{ 
+    transform: scale(0.90);
+}
+
+.box h2{
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    top: 95px;
+}
+
+.hr-lines{
+    position: relative;
+  }
+
+.hr-lines{
+  position: relative;
+  max-width: 200px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.title{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   position: absolute;
+   width: 850px;
+   height: 200px;
+   color: rgb(255, 255, 255);
+   left: 50%;
+   top:50%;
+   transform: translate(-50%,-50%);
+   font-size: 50px;
+   text-align: center;
+   background: rgba(0,0,0,.5);
+}
+
+
+@media screen and (max-width: 1500px) {
+    .box{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 750px){
+    .box{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .boximg{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 750px){
+    .boximg{
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+    .title{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 750px){
+    .title{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .topic{
+       font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .main,.mainimg{
+       width: 759px;
+    }
+}
+
+
+
+
+
+
+

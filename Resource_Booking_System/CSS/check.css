@@ -1,0 +1,96 @@
+body{
+  background-image: url(../IMAGES/bacck.jpg);
+}
+
+.div {
+    background-color: white;
+    margin: auto;
+    width: 40%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 55px;
+   
+  }
+
+h2{
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+
+.hr-lines:before{
+  font-family: sans-serif;
+  content:" ";
+  display: block;
+  height: 2px;
+  width: 130px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: rgb(0, 0, 0);
+}
+
+.hr-lines{
+    position: relative;
+  }
+
+.hr-lines{
+  position: relative;
+  /*  new lines  */
+  max-width: 510px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgb(0, 0, 0);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+.checkbtn{
+    height: 40px;
+    background-color: hwb(0 0% 100%);
+    border-radius: 45px;
+    transition: all 0.25s ease-out;
+    color:white;
+}
+
+.checkbtn:hover{
+  background-color: rgb(255, 255, 255);
+  text-decoration-color: aliceblue;
+  color:rgb(0, 0, 0);
+
+}
+
+
+.box{
+  border: 45px;
+  border-color: black;
+  font-size: 15px;
+  height: 35px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  background-color: rgb(250, 232, 203);
+}
+
+
+
+label{
+  font-family: sans-serif;
+  font-size: 17;
+}
+
+#nights{
+  width: 105px;
+}
+
+#adults{
+  margin-left: 14px;
+}
+
+
